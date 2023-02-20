@@ -1,0 +1,26 @@
+#business_card_area{
+  width: 420px;
+  display: block;
+  margin: auto;
+  background-color: $bgColor;
+  padding-bottom: 70px;
+  position: relative;
+  .footer_area{
+    position: absolute;
+    bottom: 0px;
+    padding: 15px 0px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.226);
+    border-radius: 50px 50px 0 0;
+    user-select: none;
+    p{
+      font-size: 1em;
+      font-weight: 500;
+      i{
+        margin-right: 10px;
+        font-size: 20px;
+      }
+    }
+  }
+}

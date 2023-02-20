@@ -1,0 +1,141 @@
+@media screen and (max-width: 1040px){
+  #business_card_area{
+    width: 100%;
+  }
+  .header_info{
+    h1{
+      font-size: 20px;
+    }
+  }
+  #header_area .inner_header_area .header_logo_box {
+    height: 45%;
+  }
+  
+}
+@media screen and (min-width: 768px){
+  #header_area .inner_header_area .header_logo_box {
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    padding-top: 20px;
+    position: relative;
+    border-radius: 100%;
+    overflow: hidden;
+}
+  
+}
+@media screen and (max-width: 768px){
+  #business_card_area{
+    width: 100%;
+  }
+  .inner_header_area{
+    h1{
+      font-size: 20px;
+    }
+  }
+  #header_area .inner_header_area .header_logo_box {
+    width: 160px;
+    height: 160px;
+    z-index: 1;
+    padding-top: 20px;
+    position: relative;
+    border-radius: 100%;
+    overflow: hidden;
+}
+}
+@media screen and (max-width: 540px){
+  #business_card_area{
+    width: 100%;
+  }
+  .inner_header_area{
+    h1{
+      font-size: 27px !important;
+    }
+  }
+  #header_area .inner_header_area .header_logo_box {
+    height: 35%;
+  }
+  .contact_title{
+    h2{
+      font-size: 20px !important;
+    }
+  }
+}
+@media screen and (max-width: 400px){
+    .inner_header_area{
+    h1{
+      font-size: 20px !important;
+    }
+    h2{
+      font-size: 18px !important;
+    }
+  }
+  #contact_area{
+    .contact_link_box{
+      li{
+        font-size: 14px !important;
+        span{
+          font-size: 14px !important;
+          padding: 5px !important;
+        }
+      }
+    }
+  }
+  #social_contact_area{
+    h3{
+      font-size: 16px !important;
+    }
+  }
+  .footer_area{
+    p{
+      font-size: 13px !important;
+    }
+  }
+  #google_map_area{
+    iframe{
+      height: 200px !important;
+    }
+  }
+  #social_contact_area{
+    ul{
+      li{
+      margin: 0% 0% !important;
+        a{
+          img{
+            width: 30px !important;
+          }
+        }
+      }
+    }
+  }
+  #contact_form_area{
+    h2{
+      font-size: 19px;
+    }
+    input{
+      font-size: 14px !important;
+    }
+    button{
+      font-size: 13px !important;
+    }
+  }
+}
+@media screen and (max-width: 350px){
+  #contact_area{
+    .contact_link_box{
+      li{
+        padding: 10px !important;
+        font-size: 13px !important;
+        span{
+          font-size: 14px !important;
+          padding: 5px !important;
+        }
+      }
+    }
+  }
+  .contact_title{
+    h2{
+      font-size: 18px !important;
+    }
+  }
+}
