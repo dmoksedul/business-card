@@ -16,16 +16,18 @@
 <body>
 <div id="business_card_area">
     <div class="inner_business_card_area">
-
+        <div class="preloader">
+            <img src="img/preloader.webp" alt="">
+        </div>
         <!-- header area -->
         <header id="header_area">
             <div class="inner_header_area">
-                <div data-aos="fade-up" class="header_logo_box">
+                <div class="header_logo_box">
                     <img src="img/user-logo.webp" alt="">
                 </div>
                 <div class="header_info">
-                    <h1 data-aos="fade-right">Hey! I'm <span class="user_title">Moksedul Islam</span></h1>
-                    <h2 data-aos="fade-left">Web Developer</h2>
+                    <h1>Hey! I'm <span class="user_title">Moksedul Islam</span></h1>
+                    <h2>Web Developer</h2>
                     <a target="_blank" href="#">Download CV <i class="fas fa-download"></i></a>
                 </div>
             </div>
@@ -34,15 +36,14 @@
         <section id="contact_area">
             <div class="inner_contact_area">
                 <div class="contact_title">
-                    <h2 data-aos="zoom-in-up">Contact With Me</h2>
-                    <span  data-aos="zoom-in-up"><i class="fas fa-leaf"></i></span>
+                    <h2>Contact With Me</h2>
+                    <span><i class="fas fa-leaf"></i></span>
                 </div>
                 <div class="contact_link_box">
-                    <li data-aos="zoom-in-right"><a href="tel:+880 15183-01895"><span><i class="fas fa-phone"></i></span>+880 15183-01895</a></li>
-                    <li data-aos="zoom-in-down"><span><i class="far fa-envelope"></i></span><a href="mailto:mrfmoksedulislam@gmail.com">@mrfmoksedulislam</a></li>
-                    <li data-aos="zoom-in-left"><a href="https://goo.gl/maps/nkpAyvnmPAMpEGWY6"><span><i class="fas fa-location-arrow"></i></span>Rangpur, Bangladesh</a></li>
+                    <li><a href="tel:+880 15183-01895"><span><i class="fas fa-phone"></i></span>+880 15183-01895</a></li>
+                    <li><span><i class="far fa-envelope"></i></span><a href="mailto:mrfmoksedulislam@gmail.com">@mrfmoksedulislam</a></li>
+                    <li><a href="https://goo.gl/maps/nkpAyvnmPAMpEGWY6"><span><i class="fas fa-location-arrow"></i></span>Rangpur, Bangladesh</a></li>
                     <li><a target="blank" href="https://inspireditbd.com/"><span><i class="fas fa-globe-asia"></i></span>inspireditbd.com</a></li>
-                    
                 </div>
             </div>
         </section>
@@ -50,7 +51,6 @@
         <!-- <section id="google_map_area">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.1491311767895!2d89.25263981537023!3d25.732581416084695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32d78aaf6f441%3A0x5353af3544d358c1!2sInspired%20IT!5e0!3m2!1sen!2sbd!4v1670238598734!5m2!1sen!2sbd"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section> -->
-        <!-- contact form area-->
         <!-- slider area start -->
         <section id="slider_area">
             <div class="owl-carousel owl-theme">
@@ -62,14 +62,15 @@
             </div>
         </section>
         <!-- slider area end -->
+        <!-- contact form area-->
         <section id="contact_form_area">
-            <form data-aos="zoom-in-up" action="https://formspree.io/f/xzbwowgp" method="post" onsubmit="return false">
+            <form action="https://formspree.io/f/xzbwowgp" method="post" onsubmit="return false">
                 <h2>Contact Me</h2>
-                <input data-aos="zoom-in-up" type="text" name="Name" required placeholder="Enter your name">
-                <input data-aos="zoom-in-right" type="email" name="Email" required placeholder="Enter your email">
-                <input data-aos="zoom-in-down" type="text" name="Phone" required placeholder="Enter your phone">
-                <textarea data-aos="zoom-in-up" name="message" id="" required placeholder="Enter your message here"></textarea>
-                <button data-aos="zoom-in-left" class="submit_btn" type="submit">Send Message <i class="fas fa-arrow-right"></i></button>
+                <input type="text" name="Name" required placeholder="Enter your name">
+                <input type="email" name="Email" required placeholder="Enter your email">
+                <input type="text" name="Phone" required placeholder="Enter your phone">
+                <textarea name="message" id="" required placeholder="Enter your message here"></textarea>
+                <button class="submit_btn" type="submit">Send Message <i class="fas fa-arrow-right"></i></button>
             </form>
         </section>
         <br><br>
@@ -99,7 +100,6 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/aos.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

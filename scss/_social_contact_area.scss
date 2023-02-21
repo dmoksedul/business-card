@@ -23,9 +23,7 @@
     li{
       width: 100%;
       max-width: 50px;
-      display: inline-block;
-      text-align: center;
-      margin: 0% 2%;
+      list-style: none;
       position: relative;
       a{
         padding: 5px;
@@ -63,7 +61,7 @@
             transform: scale(1.1);
           }
           span{
-            top: -15px;
+            top: -25px;
             opacity: 1;
           }
         }
@@ -113,7 +111,7 @@
         a{
           span{
             background-color: #007AB9;
-            left: -9px;
+            left: -5px;
             &::after{
               border-color: #007AB9;
             }

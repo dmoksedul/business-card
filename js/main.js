@@ -1,5 +1,4 @@
-AOS.init();
-    $('.owl-carousel').owlCarousel({
+$('.owl-carousel').owlCarousel({
   loop:true,
   margin:10,
   nav:true,
@@ -18,3 +17,7 @@ AOS.init();
       }
   }
 });
+
+window.onload = function (){
+    document.querySelector(".preloader").setAttribute("style", "display:none")
+}
