@@ -104,11 +104,27 @@
         font-weight: 500;
       }
       h2{
-        font-size: 20px;
+        font-size: 18px;
         color: $whColor;
         margin-top: 10px;
         font-weight: 600;
+        margin-top: 20px;
+      }
+      a{
+        background-color: $whColor;
         color: $pColor;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 7px 15px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-top: 30px;
+        transition: all 0.5s;
+        &:hover{
+          transform: translateY(-5px);
+          background-color: $pColor;
+          color: $whColor;
+        }
       }
     }
   }

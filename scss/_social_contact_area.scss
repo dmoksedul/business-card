@@ -6,6 +6,14 @@
     margin-bottom: 20px;
     font-size: 20px;
   }
+  span{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: $txtColor;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
   ul{
     display: flex;
     width: 100%;

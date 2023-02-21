@@ -1,27 +1,20 @@
-document.querySelector(".button_click1").addEventListener("click", function(){
-  document.querySelector(".button_click1 i").classList.add("active_btn");
-  document.querySelector(".button_click2 i").classList.remove("active_btn");
-  document.querySelector(".button_click3 i").classList.remove("active_btn");
-  document.querySelector(".button_click4 i").classList.remove("active_btn");
-})
-
-document.querySelector(".button_click2").addEventListener("click", function(){
-  document.querySelector(".button_click1 i").classList.remove("active_btn");
-  document.querySelector(".button_click2 i").classList.add("active_btn");
-  document.querySelector(".button_click3 i").classList.remove("active_btn");
-  document.querySelector(".button_click4 i").classList.remove("active_btn");
-})
-
-document.querySelector(".button_click3").addEventListener("click", function(){
-  document.querySelector(".button_click1 i").classList.remove("active_btn");
-  document.querySelector(".button_click2 i").classList.remove("active_btn");
-  document.querySelector(".button_click3 i").classList.add("active_btn");
-  document.querySelector(".button_click4 i").classList.remove("active_btn");
-})
-
-document.querySelector(".button_click4").addEventListener("click", function(){
-  document.querySelector(".button_click1 i").classList.remove("active_btn");
-  document.querySelector(".button_click2 i").classList.remove("active_btn");
-  document.querySelector(".button_click3 i").classList.remove("active_btn");
-  document.querySelector(".button_click4 i").classList.add("active_btn");
-})
+AOS.init();
+    $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+  }
+});
