@@ -18,6 +18,6 @@ $('.owl-carousel').owlCarousel({
   }
 });
 
-window.onload = function (){
-    document.querySelector(".preloader").setAttribute("style", "display:none")
-}
+// window.onload = function (){
+//     document.querySelector(".preloader").setAttribute("style", "display:none")
+// }
